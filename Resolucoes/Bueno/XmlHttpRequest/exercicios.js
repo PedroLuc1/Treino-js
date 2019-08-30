@@ -15,11 +15,27 @@ function getArtistas() {
 
 			console.log(artistas);
 		}
-	}
+	};
 
 	http.send();
 }
 
 /* Ex 2 */
+function getArtista(id) {
+	const http = new XMLHttpRequest();
 
-getArtistas();
+	http.open("GET", `${API_URL}/artistas/${id}`, true);
+
+	http.onreadystatechange = () => {
+		if (http.readyState === XMLHttpRequest.DONE && http.status === 200) {
+			artista = JSON.parse(http.responseText);
+
+			console.log(artista);
+		}
+	};
+
+	http.send();
+}
+
+//getArtistas();
+getArtista(1);
