@@ -1,0 +1,14 @@
+D:\Gabriel\S9\Treino-js\API\Audiorama\bin\Debug\netcoreapp2.2\Audiorama.deps.json
+D:\Gabriel\S9\Treino-js\API\Audiorama\bin\Debug\netcoreapp2.2\Audiorama.runtimeconfig.json
+D:\Gabriel\S9\Treino-js\API\Audiorama\bin\Debug\netcoreapp2.2\Audiorama.runtimeconfig.dev.json
+D:\Gabriel\S9\Treino-js\API\Audiorama\bin\Debug\netcoreapp2.2\Audiorama.dll
+D:\Gabriel\S9\Treino-js\API\Audiorama\bin\Debug\netcoreapp2.2\Audiorama.pdb
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.csprojAssemblyReference.cache
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.csproj.CoreCompileInputs.cache
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.RazorAssemblyInfo.cache
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.RazorAssemblyInfo.cs
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.AssemblyInfoInputs.cache
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.AssemblyInfo.cs
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.RazorTargetAssemblyInfo.cache
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.dll
+D:\Gabriel\S9\Treino-js\API\Audiorama\obj\Debug\netcoreapp2.2\Audiorama.pdb
