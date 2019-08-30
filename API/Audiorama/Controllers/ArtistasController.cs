@@ -60,7 +60,7 @@ namespace Audiorama.Controllers {
             return NoContent();
         }
 
-        [HttpPost("{id:long:min(1)}")]
+        [HttpPost("{id:long:min(1)}/albuns")]
         public IActionResult AdicionarAlbum(long id, [FromBody] Album album) {
             var artista = _db.Artista.FirstOrDefault(_ => _.Id == id);
 

@@ -1,0 +1,19 @@
+GET - /api/artistas
+GET - /api/artistas/{id}
+POST - /api/artistas
+PUT - /api/artistas/{id}
+DELETE - /api/artistas/{id}
+POST - /api/artistas/{id}/albuns
+
+JSON de artista:
+	{
+		"nome": "Zé Ramalho",
+		"pais": "Brasil"
+	}
+
+JSON de album:
+	{
+		"idArtista": 2758,
+		"nome": "Paêbiru",
+		"ano": "1975"
+	}
