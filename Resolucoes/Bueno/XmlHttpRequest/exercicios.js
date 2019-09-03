@@ -44,7 +44,7 @@ function createArtista(novoArtista) {
 	const http = new XMLHttpRequest();
 
 	http.open("POST", `${API_URL}/artistas`, true);
-	http.setRequestHeader("Content-Type: application/json");
+	http.setRequestHeader("Content-Type", "application/json");
 
 	http.onreadystatechange = function() {
 		if (this.readyState === XMLHttpRequest.DONE && http.status === 200) {
@@ -55,7 +55,7 @@ function createArtista(novoArtista) {
 		}
 	};
 
-	http.send(novoArtista);
+	http.send(JSON.stringify(novoArtista));
 }
 
 /* Ex 4 */
@@ -63,6 +63,7 @@ function updateArtista(id, novoArtista) {
 	const http = new XMLHttpRequest();
 
 	http.open("PUT", `${API_URL}/artistas/${id}`, true);
+	http.setRequestHeader("Content-Type", "application/json");
 
 	http.onreadystatechange = () => {
 		if (http.readyState === XMLHttpRequest.DONE && http.status === 200) {
@@ -73,7 +74,7 @@ function updateArtista(id, novoArtista) {
 		}
 	};
 
-	http.send(novoArtista);
+	http.send(JSON.stringify(novoArtista));
 }
 
 /* Ex 5 */
@@ -105,4 +106,4 @@ updateArtista(2, {
 	pais: "Brasil" 
 });
 
-deleteArtista(9);
+deleteArtista(1);
